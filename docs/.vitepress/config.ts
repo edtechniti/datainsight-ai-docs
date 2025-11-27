@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'DataInsight AI',
   description: 'Transform your CSV data into beautiful, interactive visualizations with AI-powered insights',
-  base: '/docs/',
+  base: '/datainsight-ai-docs/',
 
   themeConfig: {
     logo: '/logo.svg',
