@@ -4,6 +4,9 @@ export default defineConfig({
   title: 'DataInsight AI',
   description: 'Transform your CSV data into beautiful, interactive visualizations with AI-powered insights',
   base: '/datainsight-ai-docs/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/datainsight-ai-docs/favicon.svg' }]
+  ],
 
   themeConfig: {
     logo: '/logo.svg',
