@@ -22,7 +22,7 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'What is DataInsight AI?', link: '/guide/what-is-csv-visualizer' },
+          { text: 'What is DataInsight AI?', link: '/guide/what-is-datainsight-ai' },
           { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'Quick Start', link: '/guide/quick-start' }
         ]
@@ -59,13 +59,9 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/csv-data-visualizer' }
-    ],
-
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present'
+      message: 'DataInsight AI is developed by edTechniti.',
+      copyright: '© 2025 edTechniti. All rights reserved.'
     },
 
     search: {
